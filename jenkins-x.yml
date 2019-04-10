@@ -1,0 +1,9 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: bad-production
+  valuefrom: null
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: bad-production
+    valuefrom: null
